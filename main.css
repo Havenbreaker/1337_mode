@@ -1,0 +1,280 @@
+.scrollable-pre {
+    overflow: auto;
+    word-wrap: normal;
+    white-space: pre;
+}
+
+a:-webkit-any-link {
+    cursor: crosshair;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    cursor: crosshair;
+}
+.log-pre {
+    max-height: 300px;
+}
+
+.btn-fixed-length {
+    width: 70px;
+}
+
+.padding-left {
+    margin-left: 10px;
+}
+
+.select-inline {
+    font-weight: normal;
+}
+
+pre {
+    color: #fff;
+    background-color: #000;
+}
+
+body {
+    cursor: crosshair;
+    background-color: #000;
+}
+
+.logout {
+    cursor: crosshair;
+}
+
+.module-nav li a {
+    margin-left: 30px;
+}
+
+.module-nav li:hover {
+    cursor: crosshair;
+    background-color: #000000;
+}
+
+.sidebar .sidebar-nav.navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.sidebar ul li {
+    cursor: crosshair;
+    border: 1px solid 000;
+}
+
+.sidebar .active {
+    color: black;
+    background-color: #990000;
+}
+
+.navbar-top-links {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.navbar-top-links li {
+    display: inline-block;
+}
+
+.navbar {
+    margin-bottom: 0.25;
+    background-color: #000000;
+}
+
+.navbar-top-links .dropdown-menu li {
+    display: block;
+}
+
+.module-content {
+    padding: 15px 15px;
+    background-color: #000000;
+}
+
+.pointer {
+    cursor: crosshair;
+}
+
+.dropdown-menu {
+    cursor: crosshair;
+}
+
+.dropdown-menu-top {
+    max-height: 300px !important;
+    overflow-y: auto !important;
+}
+
+.progress {
+	background-color: #000000;
+}
+
+.progress-bar {
+	background-color: #990000;
+}
+
+.modal-header { 
+	border-color: black;
+}
+
+.modal-content {
+    background-color: #000000;
+}
+
+.panel {
+    background-color: #000000;
+}
+
+.login-logo {
+    cursor: crosshair;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    max-width: 150px;
+    background-color: #000000;
+}
+
+.brand-logo {
+    cursor: crosshair;
+    max-height: 30px;
+    padding-bottom: 5px;
+    background-color: #000000;
+}
+
+.panel-default>.panel-heading {
+    border-color: #cc0000;
+    background-color: #000000;
+}
+
+.panel-body {
+	color: white;
+}
+
+.panel-default {
+    border-color: #cc0000;
+}
+
+.panel-title {
+    color: white;
+    background-color: black;
+}
+
+.panel-footer{
+    background-color: black;
+}
+
+.text-muted {
+    color: #ff0000;
+}
+
+.table {
+    color: white;
+}
+
+.sidebar ul li a {
+    color: white;
+}
+
+.sidebar ul li a:hover {
+    color: black;
+    background-color: #990000;
+}
+
+.btn {
+    color: white;
+    background-color: black;
+}
+
+.navbar-default {
+    border-color: black;
+}
+
+.navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #000;
+}
+
+.navbar-default .navbar-brand {
+    color: #990000
+}
+
+.ng-scope {
+    color: white;
+}
+
+.btn-default.disabled, .btn-default.disabled.active, .btn-default.disabled.focus, .btn-default.disabled:active, .btn-default.disabled:focus, .btn-default.disabled:hover, .btn-default[disabled], .btn-default[disabled].active, .btn-default[disabled].focus, .btn-default[disabled]:active, .btn-default[disabled]:focus, .btn-default[disabled]:hover, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default.active, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:hover {
+    background-color: #000;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #000000;
+}
+
+.form-control {
+    color: #fff;
+    background-color: #000;
+}
+
+.input-group-addon {
+    color: #fff;
+    background-color: #000;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #000;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+   background-color: #990000;
+}
+
+.table>tbody>tr.active>td, .table>tbody>tr.active>th, .table>tbody>tr>td.active, .table>tbody>tr>th.active, .table>tfoot>tr.active>td, .table>tfoot>tr.active>th, .table>tfoot>tr>td.active, .table>tfoot>tr>th.active, .table>thead>tr.active>td, .table>thead>tr.active>th, .table>thead>tr>td.active, .table>thead>tr>th.active {
+    background-color: #000000;
+}
+
+.table td {
+background-color: #000000;
+}
+
+.modal {
+  background-color: black;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+       border-color: #000;
+       background-color: #000000;
+}
+.navbar-toggle {
+    border-color: #000;
+}
+
+@media(min-width:768px) {
+    .sidebar {
+        z-index: 1;
+        position: absolute;
+        width: 250px;
+        margin-top: 51px;
+        font-size: 150%;
+        color: white;
+        background-color: #000000;
+    }
+    .module-content {
+        position: inherit;
+        margin: 0 0 0 250px;
+        padding: 15px 30px;
+    }
+
+    .navbar-top-links {
+        margin-left: 10px;
+    }
+}
+
+@media(max-width:768px) {
+    .dropdown-menu-top {
+        margin: auto !important;
+        position: absolute !important;
+        background-color: #000 !important;
+        word-wrap: break-word !important;
+        border: 1px solid #eee !important;
+        width: 300px !important;
+        max-width: 300px !important;
+        background-color: #000000;
+    }
+    .dropdown-menu-top li a {
+        white-space: normal !important;
+        background-color: #000000;
+}
