@@ -5,7 +5,7 @@
 }
 
 a:-webkit-any-link {
-    color: #FFF;
+    color: #FFF !important;
     cursor: crosshair;
 }
 
